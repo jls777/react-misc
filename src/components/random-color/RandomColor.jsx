@@ -36,6 +36,7 @@ function RandomColor() {
           maxWidth: "70rem",
           height: "70rem",
           backgroundColor: color,
+          borderRadius: "10px",
         }}
       >
         <div
@@ -64,14 +65,14 @@ function RandomColor() {
             </button>
           )}
         </div>
-        <p
+        <h3
           style={{
             fontSize: "7rem",
             textAlign: "center",
           }}
         >
           {color}
-        </p>
+        </h3>
       </div>
     </div>
   );
