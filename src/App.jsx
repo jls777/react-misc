@@ -1,4 +1,3 @@
-import "./App.css";
 import RandomColor from "./components/random-color/RandomColor";
 
 function App() {

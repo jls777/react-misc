@@ -25,44 +25,54 @@ function RandomColor() {
   return (
     <div
       style={{
-        maxWidth: "100vw",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         height: "100vh",
-        backgroundColor: color,
       }}
     >
       <div
         style={{
-          display: "flex",
-          gap: "10px",
-          justifyContent: "center",
-          padding: "50px",
-          marginBottom: "50px",
+          maxWidth: "70rem",
+          height: "70rem",
+          backgroundColor: color,
         }}
       >
-        <button className="random-btn" onClick={() => setTypeOfColor("hex")}>
-          Create Hex Color
-        </button>
-        <button className="random-btn" onClick={() => setTypeOfColor("rgb")}>
-          Create RGB Color
-        </button>
-        {typeOfColor === "hex" && (
-          <button className="random-btn" onClick={handleHexColor}>
-            Generate Random Color
+        <div
+          style={{
+            display: "flex",
+            gap: "10px",
+            justifyContent: "center",
+            padding: "50px",
+            marginBottom: "50px",
+          }}
+        >
+          <button className="random-btn" onClick={() => setTypeOfColor("hex")}>
+            Create Hex Color
           </button>
-        )}
-        {typeOfColor === "rgb" && (
-          <button className="random-btn" onClick={handleRGBColor}>
-            Generate Random Color
+          <button className="random-btn" onClick={() => setTypeOfColor("rgb")}>
+            Create RGB Color
           </button>
-        )}
+          {typeOfColor === "hex" && (
+            <button className="random-btn" onClick={handleHexColor}>
+              Generate Random Color
+            </button>
+          )}
+          {typeOfColor === "rgb" && (
+            <button className="random-btn" onClick={handleRGBColor}>
+              Generate Random Color
+            </button>
+          )}
+        </div>
+        <p
+          style={{
+            fontSize: "7rem",
+            textAlign: "center",
+          }}
+        >
+          {color}
+        </p>
       </div>
-      <p
-        style={{
-          fontSize: "7rem",
-        }}
-      >
-        {color}
-      </p>
     </div>
   );
 }
