@@ -1,0 +1,14 @@
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  height: 70rem;
+  margin: 0 auto;
+}
+
+.star-rating {
+  border: 5px solid #202020;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}

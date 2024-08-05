@@ -1,9 +1,9 @@
-import RandomColor from "./components/random-color/RandomColor";
+import StarContainer from "./components/star-rating/StarContainer";
 
 function App() {
   return (
     <div>
-      <RandomColor />
+      <StarContainer />
     </div>
   );
 }
