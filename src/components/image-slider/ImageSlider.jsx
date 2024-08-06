@@ -12,8 +12,9 @@ function ImageSlider() {
         <img className="img-slide" src={data.at(currentSlide).image} alt="" />
         <div className="pexel-photo-name-container">
           <p>
+            Photos provided by{" "}
             <a className="pexel-link" href="https://www.pexels.com">
-              Photos provided by Pexels
+              Pexels
             </a>
           </p>
           <p>
