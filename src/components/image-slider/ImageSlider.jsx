@@ -12,18 +12,30 @@ function ImageSlider() {
         <img className="img-slide" src={data.at(currentSlide).image} alt="" />
         <div className="pexel-photo-name-container">
           <p>
-            Photos provided by{" "}
-            <a className="pexel-link" href="https://www.pexels.com">
+            Photos provided by{""}
+            <a
+              className="pexel-link"
+              href="https://www.pexels.com"
+              target="_blank"
+            >
               Pexels
             </a>
           </p>
           <p>
             This{" "}
-            <a className="img-link" href={data.at(currentSlide).image}>
+            <a
+              className="img-link"
+              href={data.at(currentSlide).image}
+              target="_blank"
+            >
               photo
             </a>{" "}
             was taken by{" "}
-            <a className="name-link" href="">
+            <a
+              className="name-link"
+              href={data.at(currentSlide).page}
+              target="_blank"
+            >
               {data.at(currentSlide).name}
             </a>
           </p>
