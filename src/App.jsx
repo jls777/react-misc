@@ -1,9 +1,9 @@
-import ImageSlider from "./components/image-slider/ImageSlider";
+import LoadMoreData from "./components/load-more-data/LoadMoreData";
 
 function App() {
   return (
     <div>
-      <ImageSlider />
+      <LoadMoreData />
     </div>
   );
 }

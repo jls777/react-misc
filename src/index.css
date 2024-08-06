@@ -20,8 +20,8 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #f7f7f7;
-  background-color: #777;
+  color: #777;
+  background-color: #2e2e2e;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
