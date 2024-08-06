@@ -1,9 +1,9 @@
-import StarContainer from "./components/star-rating/StarContainer";
+import ImageSlider from "./components/image-slider/ImageSlider";
 
 function App() {
   return (
     <div>
-      <StarContainer />
+      <ImageSlider />
     </div>
   );
 }

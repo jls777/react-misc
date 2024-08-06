@@ -26,3 +26,7 @@ body {
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
+
+ul {
+  list-style-type: none;
+}
